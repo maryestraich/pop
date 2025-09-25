@@ -1,42 +1,44 @@
 body {
-
-    font-family: sans serif
-    
-    text-align center;
-    
-    text-shadow: 2px 2px 4px #000000;
-    
-    color: #000607;
-    
-    font-size: 30px;
-    
-    margin-top: 80px;
-    
-    background-color: #013536;
-    
-    display: flex;
-    
-    flex-direction: column;
-    
-    grid-template-columns: repeat(2 auto)
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#969191
 }
-    
-    button {
-    
-    margin: 10px;
-    
-    padding: 15px 30px;
-    
-    font-size: 18px;
-    
-    border: none;
-    
-    border-radius: 8px;
 
-    background-color: #004102;
-    
-    color: rgba(255, 238, 0-0.753);
-    
-    cursor: pointer;
-    
-    }
+header {
+    background-color: #181717;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: hsl(0, 13%, 91%);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #099e29;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #012c04;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
